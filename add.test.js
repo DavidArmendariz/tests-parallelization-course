@@ -5,5 +5,5 @@ test("it adds two numbers", () => {
 });
 
 test("it adds two decimal numbers", () => {
-  expect(add(0.1, 0.2)).toBe(0.3);
+  expect(add(0.1, 0.2)).toBeCloseTo(0.3);
 });
